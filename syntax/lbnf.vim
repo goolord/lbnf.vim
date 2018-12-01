@@ -24,14 +24,14 @@ syn match lbnfSymbols   /;$/
 syn region lbnfString start=+"+ end=+"+
 syn keyword lbnfTypes digit digit+ char letter
 
-hi link lbnfStatement	Include
-hi link lbnfString		String
-hi link lbnfChar  		String
-hi link lbnfClass		  Identifier
-hi link lbnfLabel		  Statement
-hi link lbnfComment	  Comment
-hi link lbnfEquals	  Define
-hi link lbnfSymbols	  Define
-hi link lbnfList		  Delimiter
+hi link lbnfStatement Include
+hi link lbnfString    String
+hi link lbnfChar      String
+hi link lbnfClass     Identifier
+hi link lbnfLabel     Statement
+hi link lbnfComment   Comment
+hi link lbnfEquals    Define
+hi link lbnfSymbols   Define
+hi link lbnfList      Delimiter
 hi link lbnfTypes     Type
-hi link lbnfIdent		  NONE
+hi link lbnfIdent     NONE
